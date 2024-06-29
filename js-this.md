@@ -1,23 +1,4 @@
-﻿
-## Savol: JavaScript-da `this` kalit so'zi nima va uning ishlatilishi haqida misol keltiring.
-
-**Qiyinchilik darajasi:** O'rta
-
-**Ehtimollik:** 70%
-
-### Javob:
-
-JavaScript-da `this` kalit so'zi unga tegishli bo'lgan obyektni bildiradi. U turli joylarda turli qiymatlarga ega bo'ladi:
-
-1. **Metodda:** `this` egasi bo'lgan obyektni bildiradi.
-2. **Yolg'iz:** `this` global obyektni bildiradi (brauzerlarda `window`).
-3. **Funksiyada:** `this` global obyektni bildiradi (qat'iy rejimda emas) yoki `undefined` (qat'iy rejimda).
-4. **Voqeada:** `this` voqeani qabul qilgan elementni bildiradi.
-5. **`call`, `apply`, va `bind` metodlari bilan:** `this` aniq o'rnatilishi mumkin.
-
-### Misol Kodeks:
-
-```javascript
+﻿```javascript
 // Metodda
 const shaxs = {
     ism: 'John',
@@ -57,3 +38,4 @@ salomlash.apply(shaxs2); // Natija: Salom, Bob
 
 const salomlashAlice = salomlash.bind(shaxs1);
 salomlashAlice(); // Natija: Salom, Alice
+```
