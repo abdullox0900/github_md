@@ -40,7 +40,7 @@ Vali hayron bo’lib so’radi: “Ali, sen nima qilyapsan? O’zgaruvchining qi
 
 Ali kulib dedi: “Bu JavaScript-da hoisting deb ataladi. JavaScript dastur boshlanishidan oldin o’zgaruvchilar va funksiyalarni kodning yuqorisiga ko’taradi. Mana, qanday ishlashini ko’ring.”
 
-**JavaScript dasturi kodni shunday ko’radi:**
+## JavaScript dasturi kodni shunday ko’radi:
 
 ```javascript
 var myVar // O'zgaruvchi hoist qilingan
@@ -88,6 +88,6 @@ Ali kulib dedi: “Bu safar sen hamma narsani to’g’ri qilding! Funksiya ifod
 
 Vali xursand bo’lib tushundi: “Demak, biz JavaScriptda sehrli hoistingdan foydalanamiz, lekin faqat deklaratsiyalarda! Function expressions esa hoisting qilinmaydi.”
 
-**Intervyuda berilish ehtimoli**
+## Intervyuda berilish ehtimoli
 
 Hoisting JavaScript-ning muhim kontseptsiyalaridan biri bo’lgani uchun, intervyularda bu savol 60-70% hollarda tushishi mumkin.
