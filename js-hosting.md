@@ -1,5 +1,3 @@
-# Hoisting nima va qanday ishlaydi?
-
 **Hoisting** JavaScript-ning asosiy kontseptsiyalaridan biri bo'lib, bu atama dastur ishlashidan oldin o'zgaruvchilar va funktsiyalarning deklaratsiyasi kodning yuqoriga ko'tarilishi (hoist) ma'nosini anglatadi. Bu shuni anglatadiki, o'zgaruvchilar va funksiyalar dastur ichida istalgan joyda deklaratsiya qilingan bo'lsa ham, ularning deklaratsiyalari avtomatik ravishda kodning boshiga ko'tariladi.
 
 ## Misol
